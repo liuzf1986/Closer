@@ -1,0 +1,7 @@
+1. dependence
+  rapidjson
+  protobuf
+  mysql++
+
+
+g++ -o test main.cpp -std=c++11 -I/usr/include/mysql -lmysqlpp
